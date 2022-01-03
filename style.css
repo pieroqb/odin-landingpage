@@ -15,7 +15,7 @@ ul {
 }
 
 header {
-    background-color: #1F2F37;
+    background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
@@ -40,9 +40,70 @@ main {
     flex-shrink: 0;
 }
 
+.hero {
+    background-color: #1F2937;
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 12px auto;
+}
+
+.hero-text-button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-img {
+    margin: 0;
+}
+
+.hero-img img {
+    width: 400px;
+    height: auto;
+}
+
+.hero-img figcaption {
+    font-size: 12px;
+    color: #E5E7EB;
+    text-align: end;
+}
+
+.info {
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.call-to-action {
+
+}
 
 footer {
-    background-color: #1F2F37;
+    background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
