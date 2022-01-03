@@ -14,8 +14,10 @@ ul {
     list-style-type: none;
 }
 
+
+
 header {
-    background-color: #1F2937;
+    background-color: hsl(201,48%,11%);
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
@@ -41,7 +43,7 @@ main {
 }
 
 .hero {
-    background-color: #1F2937;
+    background-color: hsl(201,48%,11%);
     padding: 96px;
     display: flex;
     justify-content: center;
@@ -84,13 +86,36 @@ main {
     height: auto;
 }
 
-.hero-img figcaption {
-    font-size: 12px;
-    color: #E5E7EB;
-    text-align: end;
+.info {
+    padding: 48px;
 }
 
-.info {
+.info-main {
+    font-size: 36px;
+    font-weight: bolder;
+    color: hsl(201,48%,11%);
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-card {
+    width: 200px;
+}
+
+.info-card img {
+    width: 200px;
+    height: auto;
+}
+
+.info-card figcaption {
+    font-size: 18px;
+    text-align: center;
 
 }
 
@@ -103,10 +128,17 @@ main {
 }
 
 footer {
-    background-color: #1F2937;
+    background-color: hsl(201,48%,11%);
     color: #F9FAF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 16px;
+}
+
+footer div {
+    padding: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
